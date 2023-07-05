@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/images__1_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ringbtn"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:transitionGroup="false"
+        app:cardBackgroundColor="#204D8CAA"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="30dp"
+
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="50dp"
+            android:text=" Ring"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:src="@drawable/baseline_volume_down_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/lock"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:transitionGroup="false"
+        app:cardBackgroundColor="#204D8CAA"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="30dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ringbtn"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="50dp"
+            android:text=" Lock device"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:src="@drawable/baseline_lock_24" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/locate"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:transitionGroup="false"
+        app:cardBackgroundColor="#204D8CAA"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="30dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lock"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="50dp"
+            android:text=" Locate device"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:src="@drawable/baseline_location_on_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/wrap"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:transitionGroup="false"
+        app:cardBackgroundColor="#204D8CAA"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="30dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locate"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="50dp"
+            android:text=" Warp data"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:src="@drawable/baseline_delete_sweep_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/showMap"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#206C9E"
+        android:text="Show Map"
+        app:cardBackgroundColor="#9BA9F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.4" />
+
+    <Button
+        android:id="@+id/Access"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#206C9E"
+        android:text="Give Access"
+        app:cardBackgroundColor="#9BA9F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/showMap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.4" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:id="@+id/imic"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        android:background="@drawable/layout_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wrap">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="IMEI"
+            android:textSize="18sp"
+            android:textColor="#F4EFEF"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter IMEI number">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ICCID"
+            android:textSize="18sp"
+            android:textColor="#F3EFEF"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter ICCID number">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#090909"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/PocketM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="@id/imic"
+        app:layout_constraintStart_toStartOf="@id/imic"
+        app:layout_constraintTop_toBottomOf="@id/imic">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proximity Detection"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                android:layout_marginTop="8dp"
+                android:text="Proximity" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Sample backup rules file; uncomment and customize as necessary.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored for devices older that API 31
+   See https://developer.android.com/about/versions/12/backup-restore
+-->
+<full-backup-content>
+    <!--
+   <include domain="sharedpref" path="."/>
+   <exclude domain="sharedpref" path="device.xml"
+
+   <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="52dp"
+        app:cardCornerRadius="45dp"
+        app:cardElevation="30dp"
+        app:cardBackgroundColor="#9BA9F6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>/>
+-->
+</full-backup-content>
